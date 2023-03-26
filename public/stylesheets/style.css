@@ -1,8 +1,26 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  margin-bottom: 1.5em;
 }
 
-a {
-  color: #00B7FF;
+.mainLogo {
+  color: white;
+  padding: 0.5em 0em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.topMenus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.topMenus a {
+  padding: 2em;
+  text-decoration: none;
+  color: azure;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
