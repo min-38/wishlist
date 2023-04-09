@@ -1,0 +1,46 @@
+.wishlist-section {
+    margin: 2em;
+}
+
+.section-title-area {
+    overflow: hidden;
+    margin: 1em auto;
+    font-size: 1rem;
+}
+
+.section-title-area div{
+    display: inline;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.add-new-btn {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+}
+.add-new-btn:hover {
+    background-color: #772ce8;
+}
+
+.card-img-box {
+    width: 100%;
+    min-height: 23em;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    object-fit: contain;
+}

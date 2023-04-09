@@ -1,0 +1,37 @@
+<div class="main-section">
+    <div class="wishlist-section">
+        <div class="section-title-area">
+            <div class="section-title">
+                <span>My </span>
+            </div>
+            <div class="add-new">
+                <button class="add-new-btn">add</button>
+            </div>
+        </div>
+        <div class="swiffy-slider">
+            <ul class="slider-container slider-item-show5 slider-item-reveal wishlist-items">
+                <%
+                    let html = "";
+                    for(var i = 0; i < 1; i++){
+                        html += `
+                        <li class="card">
+                            <div>
+                                <div class="card-img-box">
+                                    <img src="/images/이미지파일.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">이미지 제목</h5>
+                                    <p class="card-text">이미지 설명 텍스트</p>
+                                    <a href="#" class="btn btn-primary">링크 버튼</a>
+                                </div>
+                            </div>
+                        </li>`;
+                    } %>
+                    <%- html %>
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        </div>
+    </div>
+</div>
